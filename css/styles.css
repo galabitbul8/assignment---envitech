@@ -1,4 +1,41 @@
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+button{
+    margin: 1rem;
+}
+ul{
+    margin-left: 1rem !important;
+}
+li{
+    cursor: pointer;
+}
 .dropdown-menu{
     max-height: 100px;
     overflow-y: auto;
 }
+
+svg{
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+}
+.view{
+    width: fit-content;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+.view-title{
+    font-weight: bold;
+    text-align: center;
+}
+.color-view{
+    min-width: 50px;
+    min-height: 50px;
+    background: #000;
+}
+
